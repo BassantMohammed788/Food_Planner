@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gragh"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodplanner.home.view.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favouriteFragment"
+            app:destination="@id/favouriteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_WeekPlannerFragment"
+            app:destination="@id/WeekPlannerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.foodplanner.Search.View.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_countryFragment"
+            app:destination="@id/countryFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_ingradientFragment"
+            app:destination="@id/ingradientFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.foodplanner.favourite.view.FavouriteFragment"
+        android:label="Favourite"
+        tools:layout="@layout/fragment_favourite" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.foodplanner.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/WeekPlannerFragment"
+        android:name="com.example.foodplanner.WeekPlannerFragment"
+        android:label="Week Planner"
+        tools:layout="@layout/fragment_week_planner" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.foodplanner.category.view.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category" >
+        <argument
+            android:name="category_name"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_categoryFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.example.foodplanner.country.view.CountryFragment"
+        android:label="Country"
+        tools:layout="@layout/fragment_country" >
+    <argument
+        android:name="countryy_name"
+        app:argType="string"
+        app:nullable="true" />
+        <action
+            android:id="@+id/action_countryFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealDetailsFragment"
+        android:name="com.example.foodplanner.meal_details.view.MealDetailsFragment"
+        android:label="Meal Details"
+        tools:layout="@layout/fragment_meal_details" >
+        <argument
+            android:name="meal_name"
+            app:argType="string"
+            app:nullable="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/ingradientFragment"
+        android:name="com.example.foodplanner.ingradients.view.IngradientFragment"
+        android:label="Ingradient"
+        tools:layout="@layout/fragment_ingradient" >
+        <argument
+            android:name="ingradient_name"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_ingradientFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment" />
+    </fragment>
+
+</navigation>

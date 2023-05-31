@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Food Planner</string>
+    <string name="appName">Anyone Can Cook</string>
+    <string name="slogan">Unleash The Chef Within You</string>
+    <string name="signUp">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="skip">skip</string>
+    <string name="google">Google</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="OR">OR</string>
+    <string name="userName">User Name</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="alreadyhaveaccount">Already have account?</string>
+    <string name="donnotHaveAccount">Don\'t have account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">logo</string>
+    <string name="scrollView">scrollView</string>
+    <string name="DailyInspiration">Your Inspiration</string>
+    <string name="Categories">Categories</string>
+    <string name="SearchByIngidients">Search By Ingradients</string>
+    <string name="ingradient">ingradient</string>
+    <string name="search_by_country">Search By Country</string>
+    <string name="search_by_categories">Search By Categories</string>
+    <string name="fav">fav</string>
+    <string name="ingredient">ingredient</string>
+    <string name="steps">steps</string>
+    <string name="preparation_video">Preparation Video</string>
+    <string name="todo">TODO</string>
+    <string name="todoo">TODO</string>
+    <string name="favourite_list">Favourite List</string>
+    <string name="image">image</string>
+    <string name="meal">meal</string>
+    <string name="garlic">ingradient</string>
+    <string name="profileName">Name</string>
+
+    <string-array name="flags">
+        <item>https://www.worldometers.info/img/flags/us-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/uk-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/ca-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/ch-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/hr-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/nl-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/eg-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/fr-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/gr-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/in-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/ei-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/it-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/jm-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/ja-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/ke-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/my-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/mx-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/mo-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/pl-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/po-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/rs-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/sp-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/th-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/ts-flag.gif</item>
+        <item>https://www.worldometers.info/img/flags/tu-flag.gif</item>
+        <item>https://www.freepnglogos.com/uploads/globe-png/globe-icon-aquanox-icons-softiconsm-34.png</item>
+        <item>https://www.worldometers.info/img/flags/vm-flag.gif</item>
+    </string-array>
+
+
+</resources>
