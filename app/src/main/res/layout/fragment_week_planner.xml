@@ -1,14 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".WeekPlannerFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/saturday"
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/saturday_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            tools:listitem="@layout/planner_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/sunday"
+
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/sundayRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="191dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            tools:listitem="@layout/planner_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/monday"
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searchCategoryRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="191dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            tools:listitem="@layout/planner_item"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/tuseday"
+
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tusedayRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="191dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            tools:listitem="@layout/planner_item" />
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/aclonica"
+
+            android:text="@string/wednseday"
+
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/wednsedayRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="191dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            tools:listitem="@layout/planner_item"/>
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/aclonica"
+
+            android:text="@string/thursday"
+
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/thursdayRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="191dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            tools:listitem="@layout/planner_item" />
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/aclonica"
+
+            android:text="@string/friday"
+
+            android:textColor="@color/primaryColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fridayRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="191dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            tools:listitem="@layout/planner_item"/>
+
+    </LinearLayout>
+
+</ScrollView>

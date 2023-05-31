@@ -35,6 +35,14 @@
     <string name="meal">meal</string>
     <string name="garlic">ingradient</string>
     <string name="profileName">Name</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuseday">Tuseday</string>
+    <string name="wednseday">Wednseday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="weekdays">Week Days</string>
 
     <string-array name="flags">
         <item>https://www.worldometers.info/img/flags/us-flag.gif</item>
